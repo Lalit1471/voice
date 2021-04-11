@@ -120,5 +120,7 @@ if __name__ == "__main__":
         elif 'time' in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")    
             speak(f"Sir, the time is {strTime}")
+        elif 'meme' in query:
+            webbrowser.open("https://github.com/Dil-Se-Coders/Project_for_Hack_36/blob/main/memepage.html")
         break
                
